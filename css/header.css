@@ -128,8 +128,8 @@ header .wrap nav div.lan{
   width: 70px;
   height: 70px;
   position: absolute;
-  right: 44px;
-  bottom: -40px;
+  right: 8px;
+  bottom: -55px;
   border: 1px solid #999999;
   text-align: center;
   font-size: 13px;
@@ -145,4 +145,52 @@ header .wrap nav div.lan ul li{
   
   margin-bottom: 7px;
   color: #999999;
+}
+div.wgnb {
+  position: absolute;
+  left: 0;
+  top: 147px;
+  width: 100%;
+  background-color: rgba(4, 69, 244, .85);
+  z-index: 1;
+}
+div.wbox div.wgnb:nth-of-type(1){
+  
+}
+div.wgnb div.center {
+  
+  width: 1000px;
+  margin: 0 auto;
+  justify-content: center;
+}
+div.wgnb div.center div.wsub {
+  width: 170px;
+  padding: 40px 0;
+}
+div.wgnb div.center div.wsub:not(:last-child){
+  border-right:1px solid #eeeeee; 
+}
+div.wgnb div.center div.wsub:nth-child(3){
+  width: 123.8px;
+}
+div.wgnb div.center div.wsub h2 {
+  
+margin-bottom: 15px;
+font-size: 14px;
+color: white;
+text-align: center;
+}
+div.wgnb div.center div.wsub ul {
+  
+}
+div.wgnb div.center div.wsub ul li {
+  
+}
+div.wgnb div.center div.wsub ul li a {
+  color: white;
+  font-size: 12px;
+  display: inline-block;
+}
+div.wgnb div.center div.wsub ul li a:hover{
+border-bottom: 1px solid;
 }
