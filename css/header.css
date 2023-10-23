@@ -75,22 +75,23 @@ header .wrap nav ul.gnb {
   width: 70%;
   display: flex;
   justify-content: space-around;
+  height: 67px;
 }
 header .wrap nav ul.gnb li {
   
 }
 header .wrap nav ul.gnb li a {
   padding: 0 15px;
-  line-height: 6;
+  line-height: 4;
   display: block;
   border-top: 2px solid transparent;
   font-size: 15px;
   font-weight: 400;
+  height: 80%;
 }
 header .wrap nav ul.gnb li a:hover{
-  
-  background-color: #ccc;
-  border-top: 2px solid #333;
+  content: "";
+  border-bottom: 2px solid blue;
 }
 
 /* 기타메뉴 */
