@@ -94,7 +94,6 @@ header .wrap nav ul.gnb li a:hover{
   border-bottom: 2px solid blue;
 }
 
-/* 기타메뉴 */
 header .wrap nav ul.enb {
   
   width: calc(30% - 55px);

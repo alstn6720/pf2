@@ -6,14 +6,13 @@ body{
   width: auto;
 }
 .height-full{
-  /*! height:100%; */
 }
 .wrap{
   max-width: 1200px;
   margin: 0 auto;
 }
 .hide{
-  display: none; /* 안보이게 */
+  display: none; 
 }
 .rbox{
   width: 300px;
