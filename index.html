@@ -38,19 +38,17 @@
             );
         });
         $(document).ready(function(){
-           //gnb의 li를 click하면 실행하시오
            $(".ham").hide();
            $("header .wrap nav div.lan").hide();
-           $("header .wrap nav ul.enb li:nth-of-type(4)").mouseenter(function(){ //mouseenter 대상영역안으로 마우스가 진입하는 행위
-                $("header .wrap nav div.lan").show();    //slideDown() 펼쳐지면서 보여지게 해라 
+           $("header .wrap nav ul.enb li:nth-of-type(4)").mouseenter(function(){ 
+                $("header .wrap nav div.lan").show();
            });
-           //타이틀영역에 마우스엔터하면 실행하시오
            $("header .wrap nav ul.enb li:nth-of-type(4)").mouseout(function(){
                 $("header .wrap nav div.lan").hide();
            });
-
         });
     </script> 
+    <!-- slick -->
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <script type="text/javascript" src="slick/slick.min.js"></script>
@@ -81,29 +79,29 @@
         // 슬라이드 업 다운//
         $(document).ready(function(){
             $("div.wgnb").hide(); 
-           $("header .wrap nav ul.gnb li:nth-of-type(1)").mouseenter(function(){ //mouseenter 대상영역안으로 마우스가 진입하는 행위
-                $("div.wbox div.wgnb:nth-of-type(1)").slideDown();    //slideDown() 펼쳐지면서 보여지게 해라 
+           $("header .wrap nav ul.gnb li:nth-of-type(1)").mouseenter(function(){ 
+                $("div.wbox div.wgnb:nth-of-type(1)").slideDown();
                 $("div.wbox div.wgnb:nth-of-type(1)").siblings().hide();
            });
            $("div#subtitle").mouseenter(function(){
                 $("div.wbox div.wgnb:nth-of-type(1)").slideUp();
            });
-           $("header .wrap nav ul.gnb li:nth-of-type(2)").mouseenter(function(){ //mouseenter 대상영역안으로 마우스가 진입하는 행위
-                $("div.wbox div.wgnb:nth-of-type(2)").slideDown();    //slideDown() 펼쳐지면서 보여지게 해라 
+           $("header .wrap nav ul.gnb li:nth-of-type(2)").mouseenter(function(){ 
+                $("div.wbox div.wgnb:nth-of-type(2)").slideDown();
                 $("div.wbox div.wgnb:nth-of-type(2)").siblings().hide();
            });
            $("div#subtitle").mouseenter(function(){
                 $("div.wbox div.wgnb:nth-of-type(2)").slideUp();
            });
-           $("header .wrap nav ul.gnb li:nth-of-type(3)").mouseenter(function(){ //mouseenter 대상영역안으로 마우스가 진입하는 행위
-                $("div.wbox div.wgnb:nth-of-type(3)").slideDown();    //slideDown() 펼쳐지면서 보여지게 해라 
+           $("header .wrap nav ul.gnb li:nth-of-type(3)").mouseenter(function(){ 
+                $("div.wbox div.wgnb:nth-of-type(3)").slideDown();
                 $("div.wbox div.wgnb:nth-of-type(3)").siblings().hide();
            });
            $("div#subtitle").mouseenter(function(){
                 $("div.wbox div.wgnb:nth-of-type(3)").slideUp();
            });
-           $("header .wrap nav ul.gnb li:nth-of-type(4)").mouseenter(function(){ //mouseenter 대상영역안으로 마우스가 진입하는 행위
-                $("div.wbox div.wgnb:nth-of-type(4)").slideDown();    //slideDown() 펼쳐지면서 보여지게 해라 
+           $("header .wrap nav ul.gnb li:nth-of-type(4)").mouseenter(function(){ 
+                $("div.wbox div.wgnb:nth-of-type(4)").slideDown();
                 $("div.wbox div.wgnb:nth-of-type(4)").siblings().hide();
            });
            $("div#subtitle").mouseenter(function(){
@@ -308,7 +306,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
             </nav>
         </div>
    </header>
@@ -530,5 +527,4 @@
         <a href="#top" class="btop">TOP</a>
    </footer>
 </body>
-</html>
 </html>
